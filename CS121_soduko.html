@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Sudoku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sudoku</h1>
+    
+    <div id="game-container">
+        <div id="sudoku-board"></div>
+        <button id="generate-btn">Generate</button>
+        <button id="check-btn">Check Solution</button>
+        <div id="message"></div>
+    </div>
+    
+    <div id="instructions">
+        <h3>How to Play:</h3>
+        <p>1. Click "Generate" to create a new puzzle</p>
+        <p>2. Click on empty cells and enter numbers from 1-9</p>
+        <p>3. Fill all cells correctly to win</p>
+        <p>4. Each row, column, and 3x3 section must contain all numbers from 1 to 9 without repetition</p>
+    </div>
+
+    <script src="sudoku.js"></script>
+</body>
+</html>
